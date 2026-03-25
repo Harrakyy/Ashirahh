@@ -15,15 +15,15 @@ const teamMembers = [
     featured: false,
   },
   {
-    name: "Zafira Syifa Maira",
-    role: "CMO",
+    name: "Muhammad Rahadian Dzaki",
+    role: "CTO",
     company: "ASHIRA GROUP",
     featured: false,
   },
   {
-    name: "Goval Maulana Akbar",
-    role: "Branch Manager",
-    company: "Padang Area",
+    name: "Safitri Az Zahra",
+    role: "Corporate Secretary",
+    company: "ASHIRA GROUP",
     featured: false,
   },
 ]

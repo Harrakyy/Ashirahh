@@ -104,7 +104,7 @@ export function PortfolioContent() {
             className="rounded-full px-8"
             style={{ backgroundColor: '#D4AF37', color: '#1c2143' }}
           >
-            <a href="/portfolio-ashira.pdf" download>
+            <a href="/CP.pdf" download>
               <Download className="mr-2 w-5 h-5" />
               Download Full Portfolio (PDF)
             </a>

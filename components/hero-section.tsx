@@ -26,7 +26,7 @@ export function HeroSection() {
           {/* Logo */}
           <div className="mb-8">
             <Image
-              src="/images/ashira-corporate-logo.png"
+              src="/images/logo.png"
               alt="ASHIRA GROUP"
               width={180}
               height={60}
@@ -81,10 +81,12 @@ export function HeroSection() {
               variant="outline"
               size="lg"
               className="rounded-full px-8 py-6 text-base font-medium tracking-wide border-white/30 text-white hover:bg-white/10 transition-all duration-300 hover:scale-105"
+              style={{ backgroundColor: '#ffffff', color: '#1c2143' }}
             >
               <a href="/community">
                 <Users className="mr-2 w-5 h-5" />
                 Join Our Community
+                
               </a>
             </Button>
           </div>

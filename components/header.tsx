@@ -134,9 +134,9 @@ export function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo and Company Name */}
             <Link href="/" className="flex items-center gap-4">
-              <div className="relative w-28 lg:w-32 h-8 lg:h-10">
+              <div className="relative w-28 lg:w-32 h-10 lg:h-20">
                 <Image
-                  src="/images/ashira-corporate-logo.png"
+                  src="/images/logo.png"
                   alt="ASHIRA'H"
                   fill
                   className="object-contain"
@@ -228,7 +228,8 @@ export function Header() {
                 asChild
                 variant="outline"
                 size="sm"
-                className="rounded-full px-4 border-white/30 text-white hover:bg-white/10"
+                className="rounded-full px-4 border-navy/30 text-white hover:bg-white/10"
+                style={{ backgroundColor: '#ffffff', color: '#1c2143' }}
               >
                 <Link href="/order">
                   {t("orderNow")}
