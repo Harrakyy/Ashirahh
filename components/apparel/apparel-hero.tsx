@@ -78,6 +78,7 @@ export function ApparelHero() {
                 variant="outline"
                 size="lg"
                 className="rounded-full px-8 py-6 text-base font-medium border-white/20 text-white hover:bg-white/10 transition-all hover:scale-105"
+                style={{ backgroundColor: '#ffffff', color: '#1c2143' }}
               >
                 <a href="#products">View Products</a>
               </Button>

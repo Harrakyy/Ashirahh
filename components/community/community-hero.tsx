@@ -79,6 +79,7 @@ export function CommunityHero() {
                 variant="outline"
                 size="lg"
                 className="rounded-full px-8 py-6 text-base font-medium border-white/30 text-white hover:bg-white/10 transition-all hover:scale-105"
+                style={{ backgroundColor: '#ffffff', color: '#1a5f5a' }}
               >
                 <Link href="#team">Meet The Team</Link>
               </Button>
