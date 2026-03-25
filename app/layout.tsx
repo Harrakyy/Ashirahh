@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Inter, Playfair_Display } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
+import Chatbot from "@/components/Chatbot"
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -45,6 +46,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.variable} ${playfair.variable} font-sans antialiased`}>
         {children}
+        <Chatbot />
         <Analytics />
       </body>
     </html>
