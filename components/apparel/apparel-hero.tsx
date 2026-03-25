@@ -28,7 +28,7 @@ export function ApparelHero() {
             {/* Logo */}
             <div className="mb-8">
               <Image
-                
+                src="/images/logo.png"
                 alt="ASHIRA'H.CO"
                 width={200}
                 height={70}
